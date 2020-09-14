@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22590" started-at="2020-09-14T09:04:48 IST" finished-at="2020-09-14T09:05:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22590" started-at="2020-09-14T09:04:48 IST" finished-at="2020-09-14T09:05:11 IST">
+      <class name="Asssignment.flipkart.IphoneData">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Asssignment.flipkart.IphoneData@1faf8f2]" name="launchBrowser" is-config="true" duration-ms="10" started-at="2020-09-14T09:04:48 IST" finished-at="2020-09-14T09:04:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="getResult()[pri:1, instance:Asssignment.flipkart.IphoneData@1faf8f2]" name="getResult" duration-ms="18077" started-at="2020-09-14T09:04:48 IST" finished-at="2020-09-14T09:05:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Asssignment.flipkart.IphoneData@1faf8f2]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2020-09-14T09:05:07 IST" finished-at="2020-09-14T09:05:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="getData()[pri:2, instance:Asssignment.flipkart.IphoneData@1faf8f2]" name="getData" duration-ms="4302" started-at="2020-09-14T09:05:07 IST" finished-at="2020-09-14T09:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+      </class> <!-- Asssignment.flipkart.IphoneData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
