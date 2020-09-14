@@ -1,7 +1,8 @@
 package Asssignment.flipkart;
 
+
 public class Details extends IphoneData implements Comparable<Details> {
-	
+	// Logic for Comparing with price
 	String name = "";
 	int Price = 0;
 	String ratings = "";
@@ -37,19 +38,11 @@ public class Details extends IphoneData implements Comparable<Details> {
 	public void setRatings(String ratings) {
 		this.ratings = ratings;
 	}
-	
-	
-			@Override
-			public int compareTo(Details d) {
-				return this.getName().compareTo(d.getName());
 
+	@Override
+	public int compareTo(Details d) { // Overriding compareTo method in super class
+		return this.getName().compareTo(d.getName());
 
-		}
-	
-
-	
+	}
 
 }
-
-
-
