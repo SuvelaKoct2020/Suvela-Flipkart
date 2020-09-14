@@ -1,6 +1,5 @@
 package Asssignment.flipkart;
 
-
 public class Details extends IphoneData implements Comparable<Details> {
 	// Logic for Comparing with price
 	String name = "";
